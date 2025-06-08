@@ -21,7 +21,10 @@ When you first run it in a Codespace, it will take some time to download 20GB of
 
 <img src="https://github.com/user-attachments/assets/a0074f76-e163-4176-915f-a8ad753736f3" alt="Image description" width="750">
 
-Once you have an account on Hugging Face, you still need to request access to a specific model:
+# Creating your own key
+You can use my Hugging Face key (in a Codespace secret), but if you want your own, follow these steps.  First, create an account on Hugging Face.
+
+Once you have an account on Hugging Face, find the model and request access to it.  You will need to fill in your name and other details, and accept the license terms:
 
 <img src="https://github.com/user-attachments/assets/8e228964-a577-4b13-a780-dd4ddddf7f28" alt="Image description" width="750">
 
