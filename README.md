@@ -8,6 +8,7 @@ To run in Windows CMD shell:
 * venv\Scripts\activate.bat
 * pip install -r requirements.txt
 * update the .env file with your Hugging Face api key
+* TBD: use the hugging face cli to login and enter API key
 * python huggingface.py
 
 To run in a Codespace (Linux) or WSL window:
@@ -15,4 +16,11 @@ To run in a Codespace (Linux) or WSL window:
 * source venv/bin/activate
 * pip install -r requirements.txt
 * update the .env file with your Hugging Face api key
+  TBD: use the hugging face cli to login and enter API key
 * python huggingface.py
+
+Once you have an account on Hugging Face, you still need to request access to a specific model:
+![image](https://github.com/user-attachments/assets/8e228964-a577-4b13-a780-dd4ddddf7f28)
+
+When your access is granted, you will receive an email like this:
+![image](https://github.com/user-attachments/assets/df9eba9c-6d0b-4187-8dc3-a57864666f7d)
