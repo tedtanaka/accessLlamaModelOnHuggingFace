@@ -1,13 +1,11 @@
 # accessLlamaModelOnHuggingFace
 This project tests accessing a Llama model on Hugging Face using an API key, since there are multiple (confusing) steps for successful authentication.
-A Windows CMD shell should not be used, since it does not support symbolic links, and will cause multiple copies of the very large (20GB) files to be downloaded.  Instead, use WSL (Windows Subsystem for Linux).
 
-To run in a Codespace (Linux) or WSL window:
+To run in a Codespace (Linux):
 * python -m venv venv
 * source venv/bin/activate
 * pip install -r requirements.txt
-* update the .env file with your Hugging Face api key
-  TBD: use the hugging face cli to login and enter API key
+* if desired, update the .env file with your Hugging Face api key, else use the one already in the Codespace secret
 * python HuggingFace.py
 
 I do not recommend running this in Windows, as it takes a long time to download the needed files, and it locks up Windows.
@@ -17,10 +15,9 @@ To run in Windows CMD shell:
 * venv\Scripts\activate.bat
 * pip install -r requirements.txt
 * update the .env file with your Hugging Face api key
-* TBD: use the hugging face cli to login and enter API key
 * python HuggingFace.py
 
-When you first run it in a Dodespace, it will take some time to download 20GB of files:
+When you first run it in a Codespace, it will take some time to download 20GB of files. I have since updated the model to a smaller one that downloads about 2GB of files (vs 20GB).
 
 <img src="https://github.com/user-attachments/assets/a0074f76-e163-4176-915f-a8ad753736f3" alt="Image description" width="750">
 
