@@ -2,6 +2,7 @@
 This project tests accessing a Llama model on Hugging Face using an API key, since there are multiple (confusing) steps for successful authentication.
 
 To run in a Codespace (Linux):
+* Create a Codespace with 8 cores (not the default 2 cores)
 * python -m venv venv
 * source venv/bin/activate
 * pip install -r requirements.txt
