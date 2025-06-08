@@ -20,7 +20,16 @@ To run in a Codespace (Linux) or WSL window:
 * python huggingface.py
 
 Once you have an account on Hugging Face, you still need to request access to a specific model:
-![image](https://github.com/user-attachments/assets/8e228964-a577-4b13-a780-dd4ddddf7f28)
+
+<img src="https://github.com/user-attachments/assets/8e228964-a577-4b13-a780-dd4ddddf7f28" alt="Image description" width="750">
+
 
 When your access is granted, you will receive an email like this:
-![image](https://github.com/user-attachments/assets/df9eba9c-6d0b-4187-8dc3-a57864666f7d)
+
+<img src="https://github.com/user-attachments/assets/df9eba9c-6d0b-4187-8dc3-a57864666f7d" alt="Image description" width="400">
+
+
+When you create a token, be sure to give it Write access:
+
+<img src="https://github.com/user-attachments/assets/6a241066-d029-477a-8880-f80965ce4365" alt="Image description" width="600">
+
