@@ -15,8 +15,14 @@ hf_access_token = os.environ.get("HF_TOKEN")
 # Specify a cache directory
 cache_dir = os.path.join(os.getcwd(), "model_cache")
 
+# I don't have access to this model
 # model_name = "meta-llama/Llama-2-7b-chat-hf"
-model_name = "meta-llama/Meta-Llama-3-8B-Instruct"
+
+# This model is large and takes a long time to download
+# model_name = "meta-llama/Meta-Llama-3-8B-Instruct"
+
+# Try this smaller model
+model_name = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
 
 tokenizer = AutoTokenizer.from_pretrained(model_name, cache_dir=cache_dir, token=hf_access_token)
 model = AutoModelForCausalLM.from_pretrained(model_name, cache_dir=cache_dir, token=hf_access_token)
