@@ -9,7 +9,6 @@ To run in a Codespace (Linux):
 * if desired, update the .env file with your Hugging Face api key, else use the one already in the Codespace secret
 * python HuggingFace.py
 
-I do not recommend running this in Windows, as it takes a long time to download the needed files, and it locks up Windows.
 To run in Windows CMD shell:
 * open a CMD window as Administrator (to support symlinks)
 * python -m venv venv
@@ -18,7 +17,7 @@ To run in Windows CMD shell:
 * update the .env file with your Hugging Face api key
 * python HuggingFace.py
 
-When you first run it in a Codespace, it will take some time to download 20GB of files. I have since updated the model to a smaller one that downloads about 2GB of files (vs 20GB).
+The 2GB model runs on Windows and an 8-core Codespace.  The 20GB model may not, though.
 
 <img src="https://github.com/user-attachments/assets/a0074f76-e163-4176-915f-a8ad753736f3" alt="Image description" width="750">
 
