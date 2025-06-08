@@ -20,15 +20,17 @@ To run in Windows CMD shell:
 * TBD: use the hugging face cli to login and enter API key
 * python HuggingFace.py
 
+When you first run it in a Dodespace, it will take some time to download 20GB of files:
+
+<img src="https://github.com/user-attachments/assets/a0074f76-e163-4176-915f-a8ad753736f3" alt="Image description" width="750">
+
 Once you have an account on Hugging Face, you still need to request access to a specific model:
 
 <img src="https://github.com/user-attachments/assets/8e228964-a577-4b13-a780-dd4ddddf7f28" alt="Image description" width="750">
 
-
 When your access is granted, you will receive an email like this:
 
 <img src="https://github.com/user-attachments/assets/df9eba9c-6d0b-4187-8dc3-a57864666f7d" alt="Image description" width="400">
-
 
 When you create a token, be sure to give it Write access:
 
