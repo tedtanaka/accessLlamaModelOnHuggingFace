@@ -12,11 +12,14 @@ hf_access_token = os.environ.get("HF_TOKEN")
 
 # login(token = hf_access_token)
 
+# Specify a cache directory
+cache_dir = os.path.join(os.getcwd(), "model_cache")
+
 # model_name = "meta-llama/Llama-2-7b-chat-hf"
 model_name = "meta-llama/Meta-Llama-3-8B-Instruct"
 
-tokenizer = AutoTokenizer.from_pretrained(model_name, token=hf_access_token)
-model = AutoModelForCausalLM.from_pretrained(model_name, token=hf_access_token)
+tokenizer = AutoTokenizer.from_pretrained(model_name, cache_dir=cache_dir, token=hf_access_token)
+model = AutoModelForCausalLM.from_pretrained(model_name, cache_dir=cache_dir, token=hf_access_token)
 
 def generate_text(prompt):
     inputs = tokenizer(prompt, return_tensors="pt")
